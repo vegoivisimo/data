@@ -79,7 +79,7 @@ hours
 
 
 # Objectives for this notebook
-
+```python
 objectives = [
     "List popular languages in Data Science",
     "List commonly used libraries",
@@ -89,7 +89,7 @@ objectives = [
 ]
 for obj in objectives:
     print("-", obj)
-
+```'
 
 
 

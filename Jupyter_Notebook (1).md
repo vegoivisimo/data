@@ -10,15 +10,12 @@
 
 
 
-```python
+
 ## Introduction
 In this notebook, we will summarize some of the key tools and concepts learned during the Data Science course. We will cover programming languages, libraries, tools, and perform basic arithmetic operaions using code cells.
-```
 
 
 
-
-    'In this notebook, we will summarize some of the key tools and concepts learned during the Data Science course. We will cover programming languages, libraries, tools, and perform basic arithmetic operaions using code cells.'
 
 
 
@@ -67,19 +64,22 @@ Below are some examples of simple arithmetic expressions:
 
 
 # This is a simple arithmetic expression to multiply then add numbers
+```python
 (3 * 4) + 8
-
+````
 
 
 
 # This will convert 200 minutes to hours by dividing by 60
+```python
 minutes = 200
 hours = minutes / 60
 hours
-
+````
 
 
 # Objectives for this notebook
+
 objectives = [
     "List popular languages in Data Science",
     "List commonly used libraries",

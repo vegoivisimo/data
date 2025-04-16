@@ -31,7 +31,7 @@ Some of the popular languages that Data Scientists use are:
 5. Scall
 
 
-```python
+
 ## Data Science Libraries  
 Some commonly used libraries used by Data Scientists include:  
 1. Pandas  
@@ -39,10 +39,10 @@ Some commonly used libraries used by Data Scientists include:
 3. Matlib  
 4. Scikit-learn  
 5. TensorFlow
-```
 
 
-```python
+
+
 ## Data Science Tools  
 
 | Tool           | Description                       |
@@ -52,34 +52,33 @@ Some commonly used libraries used by Data Scientists include:
 | Apache Zeppelin| Notebook for big data analytics   |
 | VS Code        | Lightweight code editor           |
 
-```
 
 
-```python
+
+
 ## Examples of Arithmetic Expressions  
 Below are some examples of simple arithmetic expressions:  
 - Addition: `3 + 5`  
 - Multiplication: `4 * 6`  
 - Division: `10 / 2`  
 - Combined: `(5 + 2) * 3`
-```
 
 
-```python
+
+
 # This is a simple arithmetic expression to multiply then add numbers
 (3 * 4) + 8
-```
 
 
-```python
+
+
 # This will convert 200 minutes to hours by dividing by 60
 minutes = 200
 hours = minutes / 60
 hours
-```
 
 
-```python
+
 # Objectives for this notebook
 objectives = [
     "List popular languages in Data Science",
@@ -90,10 +89,10 @@ objectives = [
 ]
 for obj in objectives:
     print("-", obj)
-```
 
 
-```python
+
+
 ## Author  
 **Ivan Vega**
-```
+

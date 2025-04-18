@@ -18,7 +18,7 @@ print("\nQuest 1: Data column types")
 print(df.dtypes)
 ````
     
-![png](1png)
+![png](1.png)
 
 
 

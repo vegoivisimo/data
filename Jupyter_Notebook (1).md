@@ -93,7 +93,7 @@ lm.fit(X, Y)
 r2_sqft_living = lm.score(X, Y)
 print("R^2 para 'sqft_living':", r2_sqft_living)
 ````
-![png](6.png)
+![png](6.PNG)
 
 
 # Quesiton 7

@@ -43,7 +43,7 @@ print("bedrooms:", df['bedrooms'].isnull().sum())
 print("bathrooms:", df['bathrooms'].isnull().sum())
 ````
                  
-![png](2.png)
+![png](2.PNG)
 
 
 
@@ -54,7 +54,7 @@ print("\nPregunta 3: Conteo de casas por número de pisos")
 floor_counts = df['floors'].value_counts().to_frame()
 print(floor_counts)
 ````
-![png](3.png)
+![png](3.PNG)
 
 
 ## Quesiton 4
@@ -65,7 +65,7 @@ plt.title("Distribución de precios según vista al agua")
 plt.show()
 
 ````
-![png](4.png)
+![png](4.PNG)
 
 # Question 5
 ```python
@@ -80,7 +80,7 @@ df_numeric = df.select_dtypes(include=[np.number])
 print(df_numeric.corr()['price'].sort_values())
 
 ````
-![png](5.png)
+![png](5.PNG)
 
 
 # Question 6
@@ -106,7 +106,7 @@ lm.fit(X, Y)
 r2_multi = lm.score(X, Y)
 print("R^2 para múltiples características:", r2_multi)
 ````
-![png](7.png)
+![png](7.PNG)
  # Quesiton 8
 ```python
 print("\nPregunta 8: Pipeline con escalado, características polinómicas y regresión lineal")
@@ -123,7 +123,7 @@ print("Número de muestras de prueba:", x_test.shape[0])
 print("Número de muestras de entrenamiento:", x_train.shape[0])
 
 ````
-![png](8.png)
+![png](8.PNG)
 
  # Quesiton 9
 ```python
@@ -134,7 +134,7 @@ r2_ridge = ridge.score(x_test, y_test)
 print("R^2 para Ridge en datos de prueba:", r2_ridge)
 
 ````
-![png](9.png)
+![png](9.PNG)
 
  # Quesiton 10
 ```python
@@ -147,4 +147,4 @@ r2_poly_ridge = ridge.score(x_test_poly, y_test)
 print("R^2 para Ridge con transformación polinómica en datos de prueba:", r2_poly_ridge)
 
 ````
-![png](10.png)
+![png](10.PNG)
